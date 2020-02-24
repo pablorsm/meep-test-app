@@ -1,0 +1,62 @@
+[
+    {
+        "id": "PT-LIS-A00079",
+        "name": "82VI82",
+        "x": -9.147672,
+        "y": 38.726192,
+        "licencePlate": "82VI82",
+        "range": 61,
+        "batteryLevel": 81,
+        "helmets": 2,
+        "model": "Askoll",
+        "resourceImageId": "vehicle_gen_ecooltra",
+        "realTimeData": true,
+        "resourceType": "MOPED",
+        "companyZoneId": 473
+    },
+    {
+        "id": "PT-LIS-A00085",
+        "name": "10VJ41",
+        "x": -9.15891,
+        "y": 38.723175,
+        "licencePlate": "10VJ41",
+        "range": 46,
+        "batteryLevel": 61,
+        "helmets": 2,
+        "model": "Askoll",
+        "resourceImageId": "vehicle_gen_ecooltra",
+        "realTimeData": true,
+        "resourceType": "MOPED",
+        "companyZoneId": 473
+    },
+    {
+        "id": "PT-LIS-A00116",
+        "name": "11VJ89",
+        "x": -9.14586,
+        "y": 38.719715,
+        "licencePlate": "11VJ89",
+        "range": 54,
+        "batteryLevel": 72,
+        "helmets": 2,
+        "model": "Askoll",
+        "resourceImageId": "vehicle_gen_ecooltra",
+        "realTimeData": true,
+        "resourceType": "MOPED",
+        "companyZoneId": 473
+    },
+    {
+        "id": "PT-LIS-A00111",
+        "name": "11VJ70",
+        "x": -9.155697,
+        "y": 38.726788,
+        "licencePlate": "11VJ70",
+        "range": 60,
+        "batteryLevel": 80,
+        "helmets": 2,
+        "model": "Askoll",
+        "resourceImageId": "vehicle_gen_ecooltra",
+        "realTimeData": true,
+        "resourceType": "MOPED",
+        "companyZoneId": 473
+    }
+]
