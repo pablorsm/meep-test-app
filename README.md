@@ -19,10 +19,10 @@
  
 ## Questions for the test
 
- - ¿Cómo de escalable es tu solución propuesta? 
-  -- La aplicacion no escala ya que hace un procesamiento único, solo utiliza un hilo de ejecución sobre la consulta del endpoint. Se podría hacer mas eficiente haciendolo asincrono y paralelizando pero no tiene sentido ya que se establece un período de tiempo concreto (1 o 2 minutos entre pulls).
- - ¿Que problemas a futuro podría presentar? Si has detectado alguno, ¿Qué alternativa/s propones para solventar dichos problemas?
-  -- Si el endpoint no diera a basto o se cayera no habría informacón que actualizar y en dos llamadas las diferencias serían 0. Sería mucho mas eficiente, escalable y práctico que fuera al revés, en lugar de exponer un endpoint al que hacer pull crear un evento que haga push a un endpoint expuesto y pudiera actualizar los resultados dados ciertos eventos.
+ # ¿Cómo de escalable es tu solución propuesta? 
+  - La aplicacion no escala ya que hace un procesamiento único, solo utiliza un hilo de ejecución sobre la consulta del endpoint. Se podría hacer mas eficiente haciendolo asincrono y paralelizando pero no tiene sentido ya que se establece un período de tiempo concreto (1 o 2 minutos entre pulls).
+ # ¿Que problemas a futuro podría presentar? Si has detectado alguno, ¿Qué alternativa/s propones para solventar dichos problemas?
+  - Si el endpoint no diera a basto o se cayera no habría informacón que actualizar y en dos llamadas las diferencias serían 0. Sería mucho mas eficiente, escalable y práctico que fuera al revés, en lugar de exponer un endpoint al que hacer pull crear un evento que haga push a un endpoint expuesto y pudiera actualizar los resultados dados ciertos eventos.
  
 
 ### Reference Documentation
